@@ -11,5 +11,7 @@ impl Game {
         }
     }
 
-    pub fn start(&mut self) {}
+    pub fn start(&mut self) {
+        loop {}
+    }
 }

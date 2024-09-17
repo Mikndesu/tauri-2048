@@ -1,7 +1,13 @@
-pub struct GameBoard {}
+use crate::tiles::Tiles;
+
+pub struct GameBoard {
+    tiles: Tiles,
+}
 
 impl GameBoard {
     pub fn new() -> Self {
-        Self {}
+        Self {
+            tiles: Tiles::new(),
+        }
     }
 }
