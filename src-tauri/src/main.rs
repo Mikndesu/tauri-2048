@@ -1,6 +1,10 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+mod game;
+mod game_board;
+mod tiles;
+
 fn main() {
     tauri::Builder::default()
         .run(tauri::generate_context!())
