@@ -1,0 +1,13 @@
+/* .container-title {
+  width: 80%;
+  height: 20%;
+} */
+.container-game{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  border-radius: 20px;
+  width: 80vmin;
+  height: 80vmin;
+  background: #e3d7a3;
+}
